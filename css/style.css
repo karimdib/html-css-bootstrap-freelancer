@@ -5,3 +5,10 @@ header{
 .hero{
     background-color: rgb(23,188,157);
 }
+img{
+    width: 100%;
+}
+
+ul.ol,li{
+    list-style: none;
+}
