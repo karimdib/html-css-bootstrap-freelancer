@@ -2,6 +2,10 @@ header{
     background-color: rgb(44,62,80);
 }
 
+.about-content{
+    background-color: rgb(23,188,157);
+}
+
 .hero{
     background-color: rgb(23,188,157);
 }
@@ -12,3 +16,4 @@ img{
 ul.ol,li{
     list-style: none;
 }
+
