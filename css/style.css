@@ -60,3 +60,13 @@ textarea{
     background-color:currentColor;
     width: 100px;
 }
+
+::placeholder{
+    color: rgb(44,62,80);
+    font-weight: 700
+}
+
+textarea{
+    color: rgb(44,62,80);
+    font-weight: 700
+}
