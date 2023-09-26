@@ -6,6 +6,10 @@ footer{
     background-color:rgb(59,84,109) ;
 }
 
+.second-footer{
+    background-color: rgb(44,62,80);
+}
+
 .about-content{
     background-color: rgb(23,188,157);
 }
@@ -69,4 +73,13 @@ textarea{
 textarea{
     color: rgb(44,62,80);
     font-weight: 700
+}
+
+.list-social li{
+    border: 1px solid white;
+    width: 50px;
+    aspect-ratio: 2;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
 }

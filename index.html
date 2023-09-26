@@ -30,16 +30,16 @@
         <section class="hero text-light">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-4 col-md-3 col-lg-4">
+                    <div class="col-4 col-md-3 col-lg-3">
                         <img src="./img/avatar.svg" alt="">
                     </div>
-                    <div class="star d-flex justify-content-center align-items-center my-2">
-                        <div class="border-entity"></div>
-                        <div class="entity-star px-2 fs-4"><i class="fa-solid fa-star"></i></div>
-                        <div class="border-entity"></div>
-                    </div>
                     <div class="text-center py-3">
-                        <h2 class="text-uppercase">start bootstrap</h2>
+                        <h2 class="text-uppercase fs-1">start bootstrap</h2>
+                        <div class="star d-flex justify-content-center align-items-center my-2">
+                            <div class="border-entity"></div>
+                            <div class="entity-star px-2 fs-4"><i class="fa-solid fa-star"></i></div>
+                            <div class="border-entity"></div>
+                        </div>
                         <div class="py-3">
                             <ul class="d-flex fs-5 justify-content-center text-uppercase  ">
                                 <li>graphic artist</li>
@@ -95,7 +95,7 @@
         </section>
         <section class="about-content text-light my-5  p-5">
             <div class="container">
-                <div class="row">
+                <div class="row p-3">
                     <div class="text-center col-12">
                         <h3 class="fw-bold text-uppercase">about</h3>
                     </div>
@@ -124,11 +124,15 @@
                                     sed dolores libero?
                                 </p>
                             </div>
-                            <div class=" text-center border" >
-                                <a class="text-decoration-none text-light px-1" href="#">
-                                    <i class="fa-solid fa-download"></i>
-                                    Download
-                                </a>
+                            <div class="container">
+                                <div class="d-flex justify-content-center">
+                                    <div class="text-center border rounded">
+                                        <a class="text-decoration-none text-light px-3 py-2" href="#">
+                                            <i class="fa-solid fa-download"></i>
+                                            Download
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             </div>
                         </div>
@@ -137,47 +141,55 @@
         </section>
         <section>
             <div class="container ">
-                <div class="p-5 m-5">
-                    <div class="text-center my-2">
-                        <h2 class="text-uppercase fw-bold">contact me</h2>
-                    </div>
-                    <div class="star d-flex justify-content-center align-items-center my-2">
-                        <div class="border-entity"></div>
-                        <div class="entity-star px-2 fs-4"><i class="fa-solid fa-star"></i></div>
-                        <div class="border-entity"></div>
-                    </div>
-                    <div class="border-bottom  border-secondary mb-3">
-                        <input type="text" placeholder="Name">
-                    </div>
-                    <div class="border-bottom  border-secondary mb-3">
-                        <input type="email" placeholder="Email Address">
-                    </div>
-                    <div class="border-bottom  border-secondary mb-3">
-                        <input type="text" placeholder="Phone Number">
-                    </div>
-                    <textarea  class=" w-100 border-bottom  border-secondary mb-3" >Message
-                    </textarea>
-                    <div>
-                        <div class="send-cta">
-                            <a class="  text-decoration-none text-light px-2 py-1 rounded" href="#">Send</a>
+                <div class="row my-5 p-3">
+                    <div class="  col-12">
+                        <div class="text-center my-2">
+                            <h2 class="text-uppercase fw-bold">contact me</h2>
                         </div>
-                    </div>
-                </div>                
+                        <div class="star d-flex justify-content-center align-items-center my-2">
+                            <div class="border-entity"></div>
+                            <div class="entity-star px-2 fs-4"><i class="fa-solid fa-star"></i></div>
+                            <div class="border-entity"></div>
+                        </div>
+                        <div class="border-bottom col-12 border-secondary mb-3">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="border-bottom col-12  border-secondary mb-3">
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div class="border-bottom col-12  border-secondary mb-3">
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        <textarea  class=" col-12 w-100 border-bottom  border-secondary mb-3" >Message
+                        </textarea>
+                        <div>
+                            <div class="send-cta">
+                                <a class="  text-decoration-none text-light px-2 py-1 rounded" href="#">Send</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
             </div>
         </section>
     </main>
-    <footer class="text-light ">
+    <footer class="text-light  ">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center py-3">
                 <div class="location col-12 col-md-4 col-lg-4">
-                    <p class="text-uppercase">location</p>
+                    <p class="text-uppercase mb-0 mt-3">location</p>
                     <p>2215 John Daniel Drive Clark, MO 54243</p>
                 </div>
                 <div class="around col-12 col-md-4 col-lg-4">
-                    <p class="text-uppercase">around the web</p>
+                    <p class="text-uppercase mt-3 mb-0">around the web</p>
+                    <ul class="list-social d-flex justify-content-center align-items-center ps-0">
+                        <li class="mx-2"><i class="fa-brands fa-facebook-f"></i></li>
+                        <li class="mx-2"><i class="fa-brands fa-google-plus-g"></i></li>
+                        <li class="mx-2"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="mx-2"><i class="fa-brands fa-linkedin-in"></i></li>
+                    </ul>
                 </div>
                 <div class="about col-12 col-md-4 col-lg-4">
-                    <p class="text-uppercase">about freelancer</p>
+                    <p class="text-uppercase mb-0 mt-3">about freelancer</p>
                     <p>
                         Freelancer is a free to use, open source Bootstrap theme created by
                         <span class="start-bootstrap">Start-Bootstrap</span>
@@ -185,6 +197,10 @@
                 </div>
             </div>                 
         </div>
+        <div class="second-footer text-center py-3">
+            <p>Copyright© Your Website 2019</p>
+        </div>
     </footer>
+    
 </body>
 </html>
